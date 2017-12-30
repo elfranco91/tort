@@ -1,1 +1,86 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: white;
+}
+header {
 
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.main-banner {
+    background-color: white;
+    padding: 0.75rem 5rem;
+    display: inline-block;
+    margin-top: 10rem;
+    margin-right: -2rem;
+    line-height: 2.4rem;
+}
+.flex {
+    display: flex;
+}
+header .flex {
+    justify-content: flex-end;
+}
+body {
+    line-height: 1.4rem;
+}
+nav .container {
+  max-width: 100%;
+
+}
+nav div {
+    display: flex;
+    align-items: center;
+}
+nav {
+    padding: 1rem 0;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.logo-white {
+    background: url("../images/logo-white.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+  }
+  .logo-black {
+      background: url("../images/logo-black.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+.paper {
+background: url("../images/paper.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+.ruler {
+  background: url("../images/glasses.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.truck {
+  background: url("../images/glasses.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: .67em 0;
+  }
