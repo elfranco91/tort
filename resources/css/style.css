@@ -19,6 +19,8 @@ header {
     margin-right: -2rem;
     line-height: 2.4rem;
 }
+
+
 .flex {
     display: flex;
 }
@@ -32,6 +34,21 @@ nav .container {
   max-width: 100%;
 
 }
+ul {
+  margin-right: 1rem;
+
+
+}
+li {
+  display: inline;
+  justify-content: space-between;
+
+}
+ul li {
+    display: inline;
+    padding: 0 1rem;
+}
+
 nav div {
     display: flex;
     align-items: center;
@@ -41,46 +58,66 @@ nav {
     background-color: cadetblue;
     color: white;
     display: flex;
-    align-items: center;
+    align-items: right;
+
     justify-content: space-between;
 }
 .container {
   max-width: 960px;
   margin: auto;
 }
+.supporting {
+    display: flex;
+    justify-content: center;
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 3rem;
+    width: 5rem;
+    height: 8rem;
+}
+.title {
+    background-color: cadetblue;
+    padding: 0.5rem 1.25rem;
+    font-weight: bold;
+    color: white;
+    max-width: 10rem;
+}
+.info {
+    width: 35%;
+    margin-right: 5%;
+    margin-bottom: 4rem;
+}
 
-.logo-white {
-    background: url("../images/logo-white.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
-  }
-  .logo-black {
-      background: url("../images/logo-black.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
-    }
-.paper {
-background: url("../images/paper.png");
-background-repeat: no-repeat;
-background-position: center;
-background-size: contain;
-}
-.ruler {
-  background: url("../images/glasses.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-.truck {
-  background: url("../images/glasses.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
 h1 {
     font-size: 2rem;
     font-weight: bold;
     margin: .67em 0;
   }
+  footer {
+    background-color: azure;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+}
+div {
+  display: block;
+}
+img {
+    border-style: none;
+}
+.service img.paper-icon {
+    width: 3.5rem;
+}
+.service img {
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+.service img.ruler-icon {
+margin-bottom: 4rem;
+
+}
