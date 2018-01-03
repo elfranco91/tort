@@ -168,10 +168,17 @@ header {
   height: 17rem;
   background-position: 20%;
 }
-.service{
+.supporting {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .info{
+    width: 100%;
+  }
 
-  flex-direction: row;
-  margin: 3.77rem;
-}
-
-}
+.title {
+    width: 100%;
+  
+  }
